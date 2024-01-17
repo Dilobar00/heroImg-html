@@ -1,0 +1,77 @@
+.body {
+  display: flex;
+  align-items: center;
+}
+
+.list_button {
+  margin-top: 120px;
+  gap: 80px;
+  padding-left: 144px;
+  padding-right: 143px;
+  display: flex;
+}
+
+.circle {
+  width: 520px;
+  height: 520px;
+  flex-shrink: 0;
+  border-radius: 520px;
+  background: var(--1TCA-Blue, #f4f9fe);
+}
+
+.button_lift {
+  position: relative;
+}
+
+.list_img {
+  position: absolute;
+  display: block;
+  left: 150px;
+  top: 270px;
+}
+
+.button_right h5 {
+  color: var(--1TCA-Blue, #006ff9);
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-top: 50px;
+  margin-bottom: 14px;
+}
+.hero_title {
+  color: var(--1TCA-BLack, #212529);
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 36px;
+  width: 410px;
+  margin-top: 14px;
+}
+.hero_text {
+  color: var(--1TCA-Ash, #6f7074);
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 456px;
+  margin-top: 16px;
+}
+.card_option2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--1TCA-BLack, #212529);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 15px;
+  cursor: pointer;
+}
+
